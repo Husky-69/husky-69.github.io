@@ -3608,6 +3608,36 @@ input, select, textarea {
 			#menu > * {
 				padding: 1.5em;
 			}
+/* Contact info styling */
+			.contact-info {
+			  margin-top: 1.5rem;
+ 			  display: flex;
+ 			  flex-direction: column;
+			  gap: 0.75rem;
+  			  font-size: 1rem;
+		}
+
+			.contact-info a {
+			  color: #2b6cb0;
+			  text-decoration: none;
+			  display: flex;
+ 			  align-items: center;
+  			  gap: 0.5rem;
+			  transition: color 0.2s;
+		}
+
+			.contact-info a:hover {
+			  color: #1e40af;
+}
+
+/* On larger screens, show contact info side by side */
+		@media (min-width: 768px) {
+			  .contact-info {
+ 			   flex-direction: row;
+ 			   gap: 1.5rem;
+  }
+}			
 
 		}
+
 
