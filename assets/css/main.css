@@ -2299,7 +2299,7 @@ input, select, textarea {
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 70%;
 			}
 
 		.image.left {
@@ -2317,17 +2317,17 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 70%;
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 70%;
 			}
 
 		.image.featured {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 100%;
+			width: 70%;
 		}
 
 			.image.featured img {
@@ -2345,11 +2345,11 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 100%;
+			width: 70%;
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 70%;
 			}
 
 /* List */
@@ -3610,3 +3610,4 @@ input, select, textarea {
 			}
 
 		}
+
